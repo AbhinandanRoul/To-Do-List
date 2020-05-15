@@ -1,0 +1,124 @@
+body {
+ 	background-image: url('abstract-background-1517588869TQU.jpg');
+    background-repeat: repeat;
+	
+	
+	text-align: center;
+	font-family: 'Times New Roman', sans-serif;
+}
+
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+h1 {
+	color: #0B2CFF ;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 40;
+}
+
+p {
+	font-weight: 600;
+}
+
+#first {
+	margin-top: 10px;
+	color: #FFFF00 	;
+}
+
+#second {
+	color:lightgreen;
+
+}
+
+#third {
+	color: red;
+	margin-bottom: 30px;
+}
+
+
+#enter {
+	border: none;
+	padding: 15px;
+	border-radius: 5px;
+	color: blue;
+	background-color: azure;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #02798F;
+	color: #FFCD5E;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #025f70;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #4EB9CD;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #76CFE0;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 15px;
+	border: none;
+}
+
+
+.done {
+	background: #14E000  !important;
+	color: #00891E;
+	
+}
+
+.delete {
+	display: none;
+}
+footer {
+	position: relative;
+	bottom: 0;
+	width:100%;
+  	display: block;
+  	font-style:italic;
+  	font-size: 30;
+    color:#124E44 ;
+ 	font-weight: bold;
+
+}
